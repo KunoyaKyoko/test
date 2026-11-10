@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IRON CARE – Kenali Anemia, Cegah Risikonya, Bijak Mengelola Obat dengan DAGUSIBU</title>
+<style>
+:root{--bg:#fff8f3;--card:#fff;--ink:#3b1420;--mut:#7a5560;--mar:#7b1e3a;--cor:#ff6f61;--pink:#ffe1e6;--cream:#fff1e0;--line:#f1d3d6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d0d13;--card:#2b141c;--ink:#fbe9e6;--mut:#d0a9ae;--mar:#ff9aa8;--cor:#ff7d6e;--pink:#3d1824;--cream:#33201a;--line:#4a2530;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d0d13;--card:#2b141c;--ink:#fbe9e6;--mut:#d0a9ae;--mar:#ff9aa8;--cor:#ff7d6e;--pink:#3d1824;--cream:#33201a;--line:#4a2530;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font-family:"Nunito","Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+h1,h2,h3{font-family:"Poppins","Segoe UI",system-ui,sans-serif;line-height:1.2;margin:0 0 .5em}
+a{color:var(--mar)}
+#bar{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,var(--cor),var(--mar));z-index:60}
+nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:6px;padding:8px 14px;overflow-x:auto;white-space:nowrap}
+nav b{color:var(--mar);margin-right:8px;font-family:Poppins,sans-serif}
+nav a{text-decoration:none;font-size:.82rem;padding:5px 10px;border-radius:99px;color:var(--ink);border:1px solid transparent}
+nav a:hover{background:var(--pink)}nav a.read::before{content:"✓ ";color:var(--cor)}nav a.on{background:var(--mar);color:#fff}
+section{max-width:1040px;margin:auto;padding:64px 20px}
+.tag{display:inline-block;background:var(--pink);color:var(--mar);padding:3px 12px;border-radius:99px;font-weight:700;font-size:.8rem;margin-bottom:10px}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);color:var(--mar)}
+.lead{color:var(--mut);max-width:680px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 6px 18px rgba(123,30,58,.07)}
+.ic{font-size:2rem}
+.hero{min-height:88vh;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,8vw,4.6rem);color:var(--mar);letter-spacing:2px;margin:0}
+.hero h2{font-size:1.1rem;color:var(--cor);font-weight:600}
+.hero h3{font-size:clamp(1.4rem,3.5vw,2rem)}
+.btn{display:inline-block;border:0;cursor:pointer;font:inherit;font-weight:700;padding:12px 22px;border-radius:99px;background:var(--mar);color:#fff;text-decoration:none;margin:6px 8px 0 0}
+.btn.alt{background:var(--cor)}.btn.ghost{background:transparent;color:var(--mar);border:2px solid var(--mar)}
+.float{animation:fl 5s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-12px)}}
+.rv{opacity:0;transform:translateY(24px);transition:.7s}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}.float{animation:none}}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:22px 0}
+.flow div{background:var(--cream);border:2px dashed var(--cor);border-radius:16px;padding:12px 14px;text-align:center;min-width:120px;font-size:.9rem}
+.flow span{color:var(--cor);font-size:1.5rem;font-weight:800}
+.flip{perspective:900px;height:180px;cursor:pointer;background:none;border:0;padding:0;font:inherit;color:inherit}
+.fi{position:relative;width:100%;height:100%;transition:transform .6s;transform-style:preserve-3d}
+.flip.f .fi{transform:rotateY(180deg)}
+.fa,.fb{position:absolute;inset:0;backface-visibility:hidden;border-radius:20px;padding:16px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;border:1px solid var(--line)}
+.fa{background:var(--card)}.fb{background:var(--mar);color:#fff;transform:rotateY(180deg);font-size:.88rem}
+.fa b{font-size:1.05rem}
+.scale{display:flex;border-radius:16px;overflow:hidden;margin:18px 0 6px;font-size:.78rem;font-weight:700;color:#fff;text-align:center}
+.scale div{padding:16px 4px}
+.note{background:var(--cream);border-left:5px solid var(--cor);padding:12px 16px;border-radius:10px;margin:18px 0;font-size:.92rem}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 12px}
+.tabs button{border:2px solid var(--mar);background:var(--card);color:var(--mar);font:inherit;font-weight:800;padding:10px 18px;border-radius:14px;cursor:pointer}
+.tabs button.on{background:var(--mar);color:#fff}
+.pane{display:none}.pane.on{display:block}
+.pane ul{padding-left:20px}
+.poster{cursor:zoom-in;background:linear-gradient(160deg,var(--pink),var(--cream));text-align:center;border:2px solid var(--cor);border-radius:20px;padding:20px}
+.poster h3{color:var(--mar)}.poster .em{font-size:2.4rem;letter-spacing:6px}
+#lb{position:fixed;inset:0;background:rgba(40,8,20,.8);display:none;align-items:center;justify-content:center;z-index:90;padding:20px}
+#lb.on{display:flex}#lb .poster{max-width:520px;width:100%;transform:scale(1.04);cursor:default}
+.mf{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:20px}
+.mf .card button{margin:4px 6px 0 0;border:0;border-radius:99px;padding:8px 16px;font:inherit;font-weight:800;cursor:pointer;background:var(--pink);color:var(--mar)}
+.ans{display:none;margin-top:10px;font-size:.9rem;padding:10px;border-radius:12px}
+.ans.ok{background:#d9f5df;color:#14532d}.ans.no{background:#ffd9d6;color:#7f1d1d}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 16px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);font:inherit;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--cor)}.opt.c{background:#d9f5df;border-color:#2e9e4f;color:#14532d}.opt.w{background:#ffd9d6;border-color:#d64545;color:#7f1d1d}
+.pg{height:8px;background:var(--pink);border-radius:9px;overflow:hidden;margin-bottom:14px}.pg i{display:block;height:100%;background:var(--cor);width:0;transition:.4s}
+#top{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:46px;height:46px;border-radius:50%;border:0;background:var(--mar);color:#fff;font-size:1.3rem;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:55}
+#top.on{opacity:1;pointer-events:auto}
+footer{background:var(--mar);color:#fff;padding:40px 20px;text-align:center}
+footer a{color:#ffd9d6}
+.refs{font-size:.9rem;padding-left:20px}.src{font-size:.78rem;color:var(--mut);margin-top:10px}
+#tg{border:1px solid var(--line);background:var(--card);border-radius:99px;cursor:pointer;margin-left:auto;padding:4px 10px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center;min-height:auto}section{padding:44px 16px}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<nav id="nav"><b>🩸 IRON CARE</b>
+<a href="#kenali">Kenali Anemia</a><a href="#gejala">Gejala</a><a href="#hb">Cek Hb</a><a href="#cegah">Pencegahan</a><a href="#ttd">TTD</a><a href="#dagusibu">DAGUSIBU</a><a href="#mitos">Mitos/Fakta</a><a href="#kuis">Kuis</a><a href="#ref">Referensi</a>
+<button id="tg" aria-label="Ganti tema">🌓</button></nav>
+
+<section id="home" class="hero" data-read="0">
+<div>
+<span class="tag">Promosi Kesehatan Mahasiswa</span>
+<h1>IRON CARE</h1>
+<h2>Kenali Anemia, Cegah Risikonya, Bijak Mengelola Obat dengan DAGUSIBU</h2>
+<h3>Jangan Biarkan Anemia Menghambat Aktivitasmu!</h3>
+<p class="lead">Anemia adalah kondisi saat tubuh kekurangan sel darah merah sehat atau hemoglobin, sehingga oksigen tidak terbawa optimal. Yuk pahami penyebabnya, cegah dengan langkah sederhana, dan pakai obat secara bijak!</p>
+<a class="btn" href="#kenali">Mulai Kenali Anemia</a><a class="btn alt" href="#kuis">Cek Pengetahuanmu</a>
+</div>
+<div class="float" aria-hidden="true">
+<svg viewBox="0 0 320 320" width="100%"><defs><radialGradient id="g" cx=".4" cy=".35"><stop offset="0" stop-color="#ff8a7d"/><stop offset="1" stop-color="#9c2447"/></radialGradient></defs>
+<circle cx="160" cy="160" r="150" fill="#ffe1e6" opacity=".6"/>
+<g id="rbc"><ellipse cx="160" cy="150" rx="86" ry="86" fill="url(#g)"/><ellipse cx="160" cy="150" rx="38" ry="38" fill="#ffe1e6" opacity=".55"/></g>
+<ellipse cx="70" cy="70" rx="34" ry="34" fill="url(#g)" opacity=".85"/><ellipse cx="70" cy="70" rx="14" ry="14" fill="#ffe1e6" opacity=".5"/>
+<ellipse cx="250" cy="250" rx="42" ry="42" fill="url(#g)" opacity=".85"/><ellipse cx="250" cy="250" rx="17" ry="17" fill="#ffe1e6" opacity=".5"/>
+<text x="160" y="300" text-anchor="middle" font-size="22" font-weight="800" fill="#7b1e3a">Fe → Hb → O₂</text></svg>
+</div>
+</section>
+
+<section id="kenali" class="rv" data-read="1">
+<span class="tag">1 · Dasar</span><h2>Kenali Anemia</h2>
+<p class="lead">Bayangkan sel darah merah sebagai kurir, hemoglobin (Hb) sebagai tas pengantarnya, dan oksigen sebagai paketnya. Zat besi adalah bahan pembuat tasnya.</p>
+<div class="flow"><div>🥩<br><b>Zat besi (Fe)</b><br>bahan baku</div><span>→</span><div>🧬<br><b>Hemoglobin</b><br>protein pengikat O₂</div><span>→</span><div>🔴<br><b>Sel darah merah</b><br>pembawa Hb</div><span>→</span><div>💨<br><b>Oksigen</b><br>ke seluruh tubuh</div></div>
+<div class="grid">
+<div class="card"><div class="ic">🩸</div><h3>Apa itu anemia?</h3>Kondisi ketika kadar Hb di bawah batas normal sehingga kemampuan darah membawa oksigen menurun.</div>
+<div class="card"><div class="ic">🧬</div><h3>Apa itu Hb?</h3>Protein di dalam sel darah merah yang mengikat dan mengantar oksigen dari paru-paru ke seluruh tubuh.</div>
+<div class="card"><div class="ic">📏</div><h3>Kenapa Hb jadi patokan?</h3>Hb mudah diukur dan langsung menggambarkan kemampuan darah mengangkut oksigen, sehingga dipakai WHO sebagai parameter anemia.</div>
+<div class="card"><div class="ic">😮‍💨</div><h3>Apa yang terjadi di tubuh?</h3>Oksigen ke otot dan otak berkurang. Tubuh dan jantung bekerja lebih keras sehingga mudah capek dan kurang fokus.</div>
+</div>
+<p class="src">Sumber: WHO (2011) Haemoglobin concentrations for the diagnosis of anaemia; Kemenkes RI (2018) Pedoman Pencegahan dan Penanggulangan Anemia pada Remaja Putri dan WUS.</p>
+</section>
+
+<section id="gejala" class="rv" data-read="2">
+<span class="tag">2 · Waspada</span><h2>Tanda, Gejala, dan Faktor Risiko</h2>
+<p class="lead">Ketuk kartu untuk melihat penjelasan. Gejala bisa ringan dan sering diabaikan.</p>
+<div class="grid">
+<button class="flip"><div class="fi"><div class="fa"><div class="ic">😩</div><b>5L</b>Ketuk untuk buka</div><div class="fb">Lesu, Letih, Lemah, Lelah, Lalai. Tanda awal yang paling sering dirasakan.</div></div></button>
+<button class="flip"><div class="fi"><div class="fa"><div class="ic">😵</div><b>Pusing</b>Ketuk untuk buka</div><div class="fb">Otak kekurangan oksigen sehingga kepala terasa ringan atau berkunang-kunang.</div></div></button>
+<button class="flip"><div class="fi"><div class="fa"><div class="ic">🫥</div><b>Pucat</b>Ketuk untuk buka</div><div class="fb">Terlihat pada wajah, kelopak mata bagian dalam, bibir, dan telapak tangan.</div></div></button>
+<button class="flip"><div class="fi"><div class="fa"><div class="ic">🏃‍♀️</div><b>Mudah sesak</b>Ketuk untuk buka</div><div class="fb">Napas cepat terasa saat naik tangga atau aktivitas ringan.</div></div></button>
+</div>
+<h3 style="margin-top:34px">Faktor risiko pada perempuan</h3>
+<div class="grid">
+<div class="card"><div class="ic">🌹</div><b>Menstruasi berlebihan</b><br>Darah yang keluar membawa zat besi.</div>
+<div class="card"><div class="ic">🍜</div><b>Asupan zat besi kurang</b><br>Jarang makan sumber zat besi.</div>
+<div class="card"><div class="ic">🍟</div><b>Pola makan tidak seimbang</b><br>Sering skip makan atau banyak makanan instan.</div>
+<div class="card"><div class="ic">📈</div><b>Kebutuhan meningkat</b><br>Masa remaja, menstruasi, dan kehamilan.</div>
+</div>
+<p class="src">Sumber: WHO (2011); Kemenkes RI (2018). Gejala dapat mirip kondisi lain, periksakan ke tenaga kesehatan bila berlanjut.</p>
+</section>
+
+<section id="hb" class="rv" data-read="3">
+<span class="tag">3 · Periksa</span><h2>Cek Hb, Yuk!</h2>
+<div class="grid">
+<div class="card"><h3>Apa itu?</h3>Pemeriksaan untuk mengetahui kadar hemoglobin dalam darah.</div>
+<div class="card"><h3>Caranya</h3>Darah diambil dari ujung jari atau pembuluh darah vena, lalu diukur dengan alat atau di laboratorium oleh tenaga kesehatan.</div>
+<div class="card"><h3>Kapan perlu?</h3>Saat muncul gejala 5L atau pucat, menstruasi banyak, pola makan kurang baik, atau sebagai skrining rutin remaja putri dan perempuan usia subur.</div>
+</div>
+<h3 style="margin-top:28px">Batas Hb perempuan usia 15 tahun ke atas, tidak hamil (g/dL)</h3>
+<div class="scale"><div style="flex:8;background:#9c1d3a">&lt; 8<br>Berat</div><div style="flex:3;background:#d9534f">8–10,9<br>Sedang</div><div style="flex:1.5;background:#f08a4b;min-width:62px">11–11,9<br>Ringan</div><div style="flex:6;background:#2e9e4f">≥ 12<br>Normal</div></div>
+<p class="src">Untuk ibu hamil, batas anemia berbeda (Hb &lt; 11 g/dL). Sumber: WHO (2011).</p>
+<div class="note">⚠️ Hasil Hb perlu dibaca sesuai kondisi masing-masing oleh tenaga kesehatan. Informasi ini bukan diagnosis mandiri.</div>
+</section>
+
+<section id="cegah" class="rv" data-read="4">
+<span class="tag">4 · Cegah</span><h2>Cegah Anemia dengan Cara Sederhana</h2>
+<p class="lead">Ketuk poster untuk memperbesar.</p>
+<div class="grid">
+<div class="poster"><div class="em">🥩🐟🥚</div><h3>Isi Piringmu dengan Zat Besi</h3>Daging, hati, ikan, telur, dan sayuran hijau (bayam, kangkung, daun katuk). Zat besi dari hewani lebih mudah diserap.</div>
+<div class="poster"><div class="em">🍊🥬🍅</div><h3>Pasangkan dengan Vitamin C</h3>Jeruk, jambu biji, tomat, atau pepaya di waktu makan membantu penyerapan zat besi.</div>
+<div class="poster"><div class="em">🍚🥦🍗</div><h3>Gizi Seimbang</h3>Makan beragam: karbohidrat, lauk, sayur, buah, dan cukup air. Jangan skip sarapan.</div>
+<div class="poster"><div class="em">🍵☕🚫</div><h3>Beri Jeda Teh dan Kopi</h3>Zat tanin dan polifenol dapat menghambat penyerapan zat besi. Beri jarak sekitar 1–2 jam dari makan atau TTD.</div>
+<div class="poster"><div class="em">💊📅</div><h3>Rutin Minum TTD</h3>Minum Tablet Tambah Darah sesuai anjuran tenaga kesehatan atau program sekolah/kampus.</div>
+</div>
+<h3 style="margin-top:28px">Kombinasi menu pendukung</h3>
+<div class="flow"><div>🥬 Bayam + 🍋 jeruk</div><div>🐟 Ikan + 🍅 tomat</div><div>🥚 Telur + 🥦 brokoli</div><div>💊 TTD + 🍊 air jeruk</div></div>
+<p class="src">Sumber: Kemenkes RI (2018); Kemenkes RI (2014) Pedoman Gizi Seimbang; WHO (2016) Daily iron supplementation in adult women and adolescent girls.</p>
+</section>
+
+<section id="ttd" class="rv" data-read="5">
+<span class="tag">5 · Suplemen</span><h2>Kenali Tablet Tambah Darah (TTD)</h2>
+<div class="grid">
+<div class="card" style="text-align:center"><svg viewBox="0 0 200 150" width="180" aria-label="Ilustrasi kemasan TTD"><rect x="30" y="20" width="140" height="110" rx="14" fill="#ffe1e6" stroke="#7b1e3a" stroke-width="3"/><rect x="30" y="20" width="140" height="30" rx="14" fill="#7b1e3a"/><text x="100" y="42" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">TTD</text><g fill="#ff6f61"><circle cx="65" cy="80" r="10"/><circle cx="100" cy="80" r="10"/><circle cx="135" cy="80" r="10"/><circle cx="65" cy="110" r="10"/><circle cx="100" cy="110" r="10"/><circle cx="135" cy="110" r="10"/></g></svg><br><b>Besi + Asam Folat</b></div>
+<div class="card"><h3>Apa itu TTD?</h3>Suplemen berisi zat besi dan asam folat untuk mencegah dan membantu mengatasi kekurangan zat besi.</div>
+<div class="card"><h3>Kandungan dan manfaat</h3>Program Kemenkes memakai TTD berisi 60 mg zat besi elemental dan 0,4 mg asam folat. Manfaatnya membantu pembentukan Hb dan sel darah merah.</div>
+<div class="card"><h3>Siapa yang dianjurkan?</h3>Remaja putri, perempuan usia subur, dan ibu hamil sesuai program dan anjuran tenaga kesehatan.</div>
+</div>
+<div class="tabs" role="tablist"><button class="on" data-p="p1">Cara minum</button><button data-p="p2">Efek samping</button><button data-p="p3">Perhatikan</button></div>
+<div class="card pane on" id="p1"><ul><li>Remaja putri dan WUS: 1 tablet per minggu sepanjang tahun, dan 1 tablet per hari selama haid (sekitar 10 hari) bila dianjurkan program setempat.</li><li>Minum dengan air putih, sebaiknya bersama atau setelah makan bila perut tidak nyaman.</li><li>Dianjurkan bersama sumber vitamin C.</li><li>Jangan bersama teh, kopi, susu, atau obat maag.</li></ul></div>
+<div class="card pane" id="p2"><ul><li>Mual, nyeri ulu hati, atau perut tidak nyaman: minum setelah makan atau malam sebelum tidur.</li><li>Sembelit: perbanyak air, sayur, dan buah.</li><li>Tinja berwarna hitam: umumnya wajar karena zat besi.</li><li>Segera ke tenaga kesehatan bila gejala berat atau muncul ruam dan sesak.</li></ul></div>
+<div class="card pane" id="p3"><ul><li>Minum sesuai dosis, jangan melebihi anjuran. Kelebihan zat besi berbahaya.</li><li>Jauhkan dari jangkauan anak-anak.</li><li>Konsultasi bila punya penyakit tertentu atau sedang minum obat lain.</li><li>TTD bukan pengganti makanan bergizi.</li></ul></div>
+<p class="src">Sumber: Kemenkes RI (2018); WHO (2016). Dosis dapat berbeda sesuai kondisi, ikuti anjuran tenaga kesehatan.</p>
+</section>
+
+<section id="dagusibu" class="rv" data-read="6">
+<span class="tag">6 · Bijak Obat</span><h2>DAGUSIBU: Bijak Mengelola Obat</h2>
+<p class="lead">Pilih langkah untuk melihat panduan dan contohnya pada TTD.</p>
+<div class="tabs" id="dg"><button class="on" data-p="d1">🏥 Dapatkan</button><button data-p="d2">💧 Gunakan</button><button data-p="d3">🏠 Simpan</button><button data-p="d4">🗑️ Buang</button></div>
+<div class="card pane on" id="d1"><h3>Da: Dapatkan obat dengan benar</h3>Peroleh obat dari tempat resmi seperti apotek, puskesmas, fasilitas kesehatan, atau program TTD kampus/sekolah.<ul><li>Contoh TTD: ambil dari puskesmas atau apotek, cek kemasan, izin edar BPOM, dan tanggal kedaluwarsa.</li><li>Obat sehari-hari: cek KLIK (Kemasan, Label, Izin edar, Kedaluwarsa).</li></ul></div>
+<div class="card pane" id="d2"><h3>Gu: Gunakan sesuai aturan</h3>Baca aturan pakai, ikuti dosis dan waktu, serta tanyakan apoteker bila ragu.<ul><li>TTD: minum dengan air putih, jauhkan dari teh dan kopi.</li></ul></div>
+<div class="card pane" id="d3"><h3>Si: Simpan dengan baik</h3>Simpan di suhu ruang, tempat sejuk dan kering, terhindar dari cahaya matahari langsung, dalam kemasan asli, dan jauh dari jangkauan anak.<ul><li>TTD: tutup rapat blister, jangan di kamar mandi atau dashboard motor.</li><li>Jangan pindahkan ke wadah lain tanpa label.</li></ul></div>
+<div class="card pane" id="d4"><h3>Bu: Buang dengan aman</h3>Buang obat rusak atau kedaluwarsa agar tidak disalahgunakan dan tidak mencemari lingkungan.<ul><li>Tablet/kapsul: keluarkan dari kemasan, hancurkan, campur dengan tanah atau ampas kopi, bungkus, lalu buang ke tempat sampah.</li><li>Lepas atau coret label identitas pada kemasan sebelum dibuang.</li></ul></div>
+<p class="src">Sumber: Kemenkes RI, Gerakan Keluarga Sehat Sadar Obat (GKSSO); Ikatan Apoteker Indonesia (IAI) Gerakan DAGUSIBU; BPOM RI Cek KLIK.</p>
+</section>
+
+<section id="mitos" class="rv" data-read="7">
+<span class="tag">7 · Luruskan</span><h2>Mitos atau Fakta?</h2>
+<div class="mf" id="mf"></div>
+</section>
+
+<section id="kuis" class="rv" data-read="8">
+<span class="tag">8 · Uji</span><h2>Kuis Interaktif</h2>
+<div class="card" id="qz"></div>
+</section>
+
+<section id="ref" class="rv" data-read="9">
+<span class="tag">9 · Sumber</span><h2>Referensi</h2>
+<ol class="refs">
+<li>World Health Organization (2011). Haemoglobin concentrations for the diagnosis of anaemia and assessment of severity. WHO/NMH/NHD/MNM/11.1.</li>
+<li>World Health Organization (2016). Guideline: Daily iron supplementation in adult women and adolescent girls.</li>
+<li>Kementerian Kesehatan RI (2018). Pedoman Pencegahan dan Penanggulangan Anemia pada Remaja Putri dan Wanita Usia Subur (WUS).</li>
+<li>Kementerian Kesehatan RI (2014). Permenkes No. 41 Tahun 2014 tentang Pedoman Gizi Seimbang.</li>
+<li>Kementerian Kesehatan RI. Gerakan Masyarakat Cerdas Menggunakan Obat (GeMa CerMat) dan Gerakan Keluarga Sehat Sadar Obat.</li>
+<li>Badan POM RI. Cek KLIK sebelum membeli dan mengonsumsi obat.</li>
+<li>Ikatan Apoteker Indonesia (IAI). Gerakan DAGUSIBU.</li>
+</ol>
+<div class="note">Mohon periksa kembali edisi terbaru pedoman di situs resmi Kemenkes, WHO, dan BPOM sebelum dipublikasikan.</div>
+</section>
+
+<footer><b>IRON CARE</b><br>Kenali Anemia, Cegah Risikonya, Bijak Mengelola Obat dengan DAGUSIBU<br><small>Media edukasi, bukan pengganti konsultasi dengan dokter atau apoteker.</small></footer>
+<button id="top" aria-label="Kembali ke atas">↑</button>
+<div id="lb"></div>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+// theme
+$('#tg').onclick=()=>{const r=document.documentElement,d=getComputedStyle(r).getPropertyValue('--bg').trim()==='#1d0d13';r.dataset.theme=d?'light':'dark'};
+// progress, top, reveal, read
+const secs=$$('section[id]'),links=$$('nav a'),read=new Set();
+addEventListener('scroll',()=>{const h=document.documentElement,p=h.scrollTop/(h.scrollHeight-h.clientHeight);$('#bar').style.width=(p*100)+'%';$('#top').classList.toggle('on',h.scrollTop>500)});
+$('#top').onclick=()=>scrollTo({top:0});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');const i=secs.indexOf(e.target);links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id));}}),{threshold:.2});
+secs.forEach(s=>io.observe(s));
+const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting&&e.target.id!=='home'){const l=links.find(a=>a.getAttribute('href')==='#'+e.target.id);l&&l.classList.add('read')}}),{threshold:.6});
+secs.forEach(s=>io2.observe(s));
+// flip
+$$('.flip').forEach(f=>f.onclick=()=>f.classList.toggle('f'));
+// tabs
+$$('.tabs').forEach(t=>t.querySelectorAll('button').forEach(b=>b.onclick=()=>{t.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');const sec=t.parentElement;sec.querySelectorAll('.pane').forEach(p=>p.classList.toggle('on',p.id===b.dataset.p))}));
+// lightbox
+$$('.poster').forEach(p=>p.onclick=()=>{const lb=$('#lb');lb.innerHTML='';const c=p.cloneNode(true);c.onclick=e=>e.stopPropagation();lb.append(c);lb.classList.add('on')});
+$('#lb').onclick=()=>$('#lb').classList.remove('on');
+addEventListener('keydown',e=>{if(e.key==='Escape')$('#lb').classList.remove('on')});
+// myth/fact
+const M=[
+["Anemia hanya terjadi pada perempuan.","m","Mitos. Anemia bisa dialami siapa saja, termasuk laki-laki dan anak-anak. Perempuan lebih berisiko karena menstruasi dan kehamilan."],
+["Minum TTD bisa menyebabkan darah tinggi.","m","Mitos. TTD berisi zat besi dan asam folat dan tidak menyebabkan hipertensi. Efek yang lazim adalah mual atau sembelit."],
+["Kalau tidak merasa pusing, berarti tidak anemia.","m","Mitos. Anemia ringan sering tanpa gejala jelas. Hb perlu diperiksa untuk memastikan."],
+["Minum teh setelah makan dapat memengaruhi penyerapan zat besi.","f","Fakta. Tanin dalam teh dan kopi dapat menghambat penyerapan zat besi nonhem, beri jeda 1–2 jam."],
+["Makan sayur hijau saja sudah pasti cukup mencegah anemia.","m","Mitos. Zat besi nabati lebih sulit diserap. Padukan dengan sumber hewani dan vitamin C."],
+["Vitamin C membantu penyerapan zat besi.","f","Fakta. Vitamin C mengubah zat besi menjadi bentuk yang lebih mudah diserap usus."]];
+$('#mf').innerHTML=M.map((m,i)=>`<div class="card"><b>“${m[0]}”</b><br><button data-i="${i}" data-a="f">✅ Fakta</button><button data-i="${i}" data-a="m">❌ Mitos</button><div class="ans" id="a${i}"></div></div>`).join('');
+$$('#mf button').forEach(b=>b.onclick=()=>{const i=+b.dataset.i,m=M[i],ok=b.dataset.a===m[1],a=$('#a'+i);a.style.display='block';a.className='ans '+(ok?'ok':'no');a.textContent=(ok?'Tepat! ':'Belum tepat. ')+m[2]});
+// quiz
+const Q=[
+["Apa fungsi utama hemoglobin?",["Mencerna makanan","Mengangkut oksigen ke seluruh tubuh","Melawan kuman","Membekukan darah"],1,"Hb di dalam sel darah merah mengikat dan mengantar oksigen."],
+["Batas Hb normal perempuan usia ≥15 tahun (tidak hamil) menurut WHO adalah...",["≥ 9 g/dL","≥ 10 g/dL","≥ 12 g/dL","≥ 15 g/dL"],2,"Di bawah 12 g/dL dikategorikan anemia."],
+["Yang termasuk gejala 5L adalah...",["Lesu, Letih, Lemah, Lelah, Lalai","Lapar, Lelap, Lucu, Lari, Lompat","Lambat, Lemak, Lapang, Lugu, Lupa","Lahap, Lincah, Lega, Lancar, Lurus"],0,"5L adalah tanda khas yang mudah diingat."],
+["Pasangan yang membantu penyerapan zat besi adalah...",["Bayam + teh","Telur + kopi","Sayur hijau + jeruk","Nasi + soda"],2,"Vitamin C meningkatkan penyerapan zat besi."],
+["Sebaiknya TTD diminum dengan...",["Teh hangat","Kopi","Susu","Air putih"],3,"Teh, kopi, dan susu bisa menghambat penyerapan."],
+["Tinja kehitaman setelah minum TTD umumnya...",["Selalu tanda perdarahan","Wajar akibat zat besi","Tanda alergi berat","Tanda TTD palsu"],1,"Umumnya wajar. Tetap konsultasi bila disertai nyeri hebat atau gejala lain."],
+["Huruf 'Bu' pada DAGUSIBU berarti...",["Beli","Bawa","Buang","Bagi"],2,"Buang obat dengan aman, kemasan dirusak dan label identitas dilepas."],
+["Cara menyimpan obat yang benar adalah...",["Di dashboard motor","Di kamar mandi","Di tempat sejuk, kering, terhindar sinar matahari","Di lemari es semua obat"],2,"Ikuti petunjuk kemasan. Hanya obat tertentu yang perlu disimpan di kulkas."]];
+let qi=0,sc=0;
+function qr(){const z=$('#qz');if(qi>=Q.length){const msg=sc>=7?"Luar biasa! Kamu duta Iron Care! 🌟":sc>=5?"Bagus! Sedikit lagi, baca ulang materi ya 💪":"Tidak apa-apa, yuk pelajari lagi materinya 💕";z.innerHTML=`<h3>Skor kamu: ${sc} / ${Q.length}</h3><div class="pg"><i style="width:100%"></i></div><p>${msg}</p><button class="btn" id="rs">Ulangi Kuis</button>`;$('#rs').onclick=()=>{qi=0;sc=0;qr()};return}
+const q=Q[qi];z.innerHTML=`<div class="pg"><i style="width:${qi/Q.length*100}%"></i></div><small>Pertanyaan ${qi+1} dari ${Q.length}</small><h3>${q[0]}</h3>${q[1].map((o,i)=>`<button class="opt" data-i="${i}">${o}</button>`).join('')}<div class="ans" id="fb"></div><button class="btn" id="nx" style="display:none">${qi==Q.length-1?'Lihat Skor':'Lanjut'}</button>`;
+$$('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.i,ok=i===q[2];if(ok)sc++;$$('.opt').forEach((x,j)=>{x.disabled=true;if(j===q[2])x.classList.add('c')});if(!ok)b.classList.add('w');const f=$('#fb');f.style.display='block';f.className='ans '+(ok?'ok':'no');f.textContent=(ok?'Benar! ':'Kurang tepat. ')+q[3];$('#nx').style.display='inline-block'});
+$('#nx').onclick=()=>{qi++;qr()}}
+qr();
+</script>
+</body>
+</html>
